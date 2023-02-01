@@ -1,0 +1,17 @@
+Prospecta:
+ Therory Question:
+
+1) To  Tackle the challenge,I would parse the input csv data and convert each cell value in to either a number or a formula string, Then, I would evalutae the formulas using a reverse polish notataion alogritham or an equivalent method. finally, i would return the result as an output csv file with values replacing formulas where  applicable.
+
+2) I would check for the follwing errors:
+  Syntax error in the formulas(e.g mismatched parethis unsupported operator,etc)
+ circular referecnes in the formulas 
+ undefiend variablees in the foromulas
+ divide by zero in the formulas;
+ incorrect data types;
+
+3) A user might break the code by: 
+  *providing an incorrect format for the input csv data:
+   *inculidng a large number of complex formulas that cause performance issues
+Attempting to perform operations on a large number of cells,leading to memory constraits;
+*introducing malicious formulas or variblaes in an attempt to exploit vulnerbiltes in the code;
