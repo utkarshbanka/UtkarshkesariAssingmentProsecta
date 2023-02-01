@@ -1,0 +1,17 @@
+Coding Challenge;
+Question 3:
+ 
+When Cosuming the api we  think we key poin securtiy;
+
+1)Authoticaton and Authorization such as jwt, oauth;
+2)Input Validation;
+3)Encryption;
+4) Logging and Monitoring;
+
+Reliablity:
+
+Api documention;
+Error handling;
+performance;
+Scailblity;
+versioing;
